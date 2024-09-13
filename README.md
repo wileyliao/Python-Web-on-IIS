@@ -5,7 +5,7 @@ Build Python Web on IIS Step by Step
 `pip install wfastcgi` <br>
 運行：`wfastcgi-enable.exe` <br>
 會回傳回應『已將設定變更套用......』 <br>
-複製路徑供後續設置使用：`disk:\path\to\your\python.exe|disk:\path\to\your\wfastcgi.py`
+複製路徑，在設置模組對應時使用：`disk:\path\to\your\python.exe|disk:\path\to\your\wfastcgi.py`
 
 ## 1. 開啟CGI服務並新增站台
 - 控制台 -> 程式集 -> 程式與功能 -> 開啟或關閉Windows功能 -> IIS -> WWW服務 -> 應用程式與開發功能 -> CGI <br>
